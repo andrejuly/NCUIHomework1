@@ -1,0 +1,101 @@
+* {
+    color: black
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+h3 {
+    color: cornflowerblue;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+hr {
+    background-color: black;
+    height: 0.1em;
+}
+
+img {
+    margin-left: 4em;
+    
+}
+
+#language {
+    color: red;
+}
+
+.main {
+    display: flex;
+    
+}
+.contacts {
+    table-layout: fixed;
+    width: 60%;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    border-spacing: 0px 10px;
+}
+
+.odd {
+    background: #F3F3F3;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.experience_date {
+    min-width: 300px;
+    margin-bottom: 1em;
+}
+
+.experience_company {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.experience_position {
+    font-style: italic ;
+}
+
+.education {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.education_date {
+    min-width: 300px;
+    margin-bottom: 1em;
+}
+
+.education_institute {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.education_specialty {
+    font-style: italic ;
+}
+
+.desription {
+    margin-right: 10em;
+}
